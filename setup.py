@@ -12,7 +12,7 @@ setup(name='tap-freshdesk',
       install_requires=[
           'singer-python @ git+https://github.com/peliqan-io/singer-python@master',
           'requests==2.20.0',
-          'backoff==1.3.2'
+          'backoff==1.8.0'
       ],
       entry_points='''
           [console_scripts]
