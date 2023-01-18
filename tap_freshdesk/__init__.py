@@ -241,7 +241,7 @@ def do_sync():
 
 
 def main_impl():
-    config, state = utils.parse_args(REQUIRED_CONFIG_KEYS)
+    config, state = singer.utils.parse_args(REQUIRED_CONFIG_KEYS)
     CONFIG.update(config)
     STATE.update(state)
     do_sync()
