@@ -11,8 +11,8 @@ setup(name='tap-freshdesk',
       py_modules=['tap_freshdesk'],
       install_requires=[
           'singer-python @ git+https://github.com/peliqan-io/singer-python@master',
-          'requests==2.20.0',
-          'backoff==1.8.0'
+          'requests>=2.28.0',
+          'backoff>=2.2.1'
       ],
       entry_points='''
           [console_scripts]
